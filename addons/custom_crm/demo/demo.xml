@@ -1,30 +1,74 @@
 <odoo>
     <data>
-<!--
-          <record id="object0" model="custom_crm.custom_crm">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
-          </record>
-
-          <record id="object1" model="custom_crm.custom_crm">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
-
-          <record id="object2" model="custom_crm.custom_crm">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
-
-          <record id="object3" model="custom_crm.custom_crm">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
-
-          <record id="object4" model="custom_crm.custom_crm">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
+        <record id="visit0" model="custom_crm.visit">
+            <field name="name">Visita 1</field>
+            <field name="customer">Juan Perez</field>
+            <field name="date">2020-01-31</field>
+            <field name="type">P</field>
+            <field name="done">1</field>
+        </record>
+        <record id="visit1" model="custom_crm.visit">
+            <field name="name">Visita 2</field>
+            <field name="customer">Maria Lopez</field>
+            <field name="date">2020-02-15</field>
+            <field name="type">P</field>
+            <field name="done">0</field>
+        </record>
+        <record id="visit2" model="custom_crm.visit">
+            <field name="name">Visita 3</field>
+            <field name="customer">Carlos Sanchez</field>
+            <field name="date">2020-03-10</field>
+            <field name="type">P</field>
+            <field name="done">1</field>
+        </record>
+        <record id="visit3" model="custom_crm.visit">
+            <field name="name">Visita 4</field>
+            <field name="customer">Ana Garcia</field>
+            <field name="date">2020-04-20</field>
+            <field name="type">P</field>
+            <field name="done">0</field>
+        </record>
+        <record id="visit4" model="custom_crm.visit">
+            <field name="name">Visita 5</field>
+            <field name="customer">Luis Martinez</field>
+            <field name="date">2020-05-30</field>
+            <field name="type">P</field>
+            <field name="done">1</field>
+        </record>
+        <record id="visit5" model="custom_crm.visit">
+            <field name="name">Visita 6</field>
+            <field name="customer">Sofia Torres</field>
+            <field name="date">2020-06-15</field>
+            <field name="type">P</field>
+            <field name="done">0</field>
+        </record>
+        <record id="visit6" model="custom_crm.visit">
+            <field name="name">Visita 7</field>
+            <field name="customer">Javier Ruiz</field>
+            <field name="date">2020-07-25</field>
+            <field name="type">P</field>
+            <field name="done">1</field>
+        </record>
+        <record id="visit7" model="custom_crm.visit">
+            <field name="name">Visita 8</field>
+            <field name="customer">Laura Jimenez</field>
+            <field name="date">2020-08-10</field>
+            <field name="type">P</field>
+            <field name="done">0</field>
+        </record>
+        <record id="visit8" model="custom_crm.visit">
+            <field name="name">Visita 9</field>
+            <field name="customer">Diego Morales</field>
+            <field name="date">2020-09-05</field>
+            <field name="type">P</field>
+            <field name="done">1</field>
+        </record>
+        <record id="visit9" model="custom_crm.visit">
+            <field name="name">Visita 10</field>
+            <field name="customer">Claudia Herrera</field>
+            <field name="date">2020-10-12</field>
+            <field name="type">P</field>
+            <field name="done">0</field>
+        </record>
     </data>
 </odoo>
