@@ -177,4 +177,3 @@ cython_debug/
 odoo_pg_pass
 
 #Excluir modulos en desarrollo
-addons/custom_crm
