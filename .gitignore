@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Excluir archivos de credenciales
+odoo_pg_pass
+
+#Excluir modulos en desarrollo
+addons/custom_crm
