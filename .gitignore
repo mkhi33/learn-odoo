@@ -177,3 +177,6 @@ cython_debug/
 odoo_pg_pass
 
 #Excluir modulos en desarrollo
+
+#Excluir odoo core
+odoo/
